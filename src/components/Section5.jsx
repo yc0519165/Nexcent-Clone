@@ -1,13 +1,11 @@
+import { assets } from "../assets/assete";
+
 export const Section5 = () => {
   return (
     <>
       <div className="w-full flex items-center justify-center h-[350px] lg:px-28 px-6 font-poppins mb-9">
         <div className="w-[50%]">
-          <img
-            src="/src/assets/Unseen-section.svg"
-            className="w-[400px]"
-            alt=""
-          />
+          <img src={assets.unseen} className="w-[400px]" alt="" />
         </div>
         <div className="flex flex-col gap-9 w-[50%]">
           <h2 className="text-4xl font-medium text-[#4D4D4D]">

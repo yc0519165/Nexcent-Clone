@@ -1,3 +1,5 @@
+import { assets } from "../assets/assete";
+
 export const Section2 = () => {
   return (
     <>
@@ -9,13 +11,13 @@ export const Section2 = () => {
           We have been working with some Fortune 500+ clients
         </p>
         <div className="w-full flex justify-between py-10">
-          <img src="/src/assets/Client-1.png" alt="" />
-          <img src="/src/assets/Client-2.png" alt="" />
-          <img src="/src/assets/Client-3.png" alt="" />
-          <img src="/src/assets/Client-4.png" alt="" />
-          <img src="/src/assets/Client-5.png" alt="" />
-          <img src="/src/assets/Client-6.png" alt="" />
-          <img src="/src/assets/Client-7.png" alt="" />
+          <img src={assets.client1} alt="" />
+          <img src={assets.client2} alt="" />
+          <img src={assets.client3} alt="" />
+          <img src={assets.client4} alt="" />
+          <img src={assets.client5} alt="" />
+          <img src={assets.client6} alt="" />
+          <img src={assets.client7} alt="" />
         </div>
       </div>
     </>

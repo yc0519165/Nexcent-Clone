@@ -1,3 +1,5 @@
+import { assets } from "../assets/assete";
+
 export const Secrion1 = () => {
   return (
     <>
@@ -16,7 +18,7 @@ export const Secrion1 = () => {
         </div>
         <div className="ml-6">
           <img
-            src="/src/assets/Illustration-section-1.svg"
+            src={assets.illustrateS1}
             className="w-[450px] animate-pulse"
             alt=""
           />

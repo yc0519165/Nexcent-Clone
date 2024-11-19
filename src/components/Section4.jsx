@@ -1,10 +1,12 @@
+import { assets } from "../assets/assete";
+
 export const Section4 = () => {
   return (
     <>
       <div className="w-full flex items-center justify-between lg:px-28 px-6 font-poppins mb-9">
         <div className="flex items-center justify-between gap-16">
           <div className="p-8 shadow-lg flex items-center flex-col gap-4">
-            <img src="/src/assets/Community-1.svg" alt="" />
+            <img src={assets.community1} alt="" />
             <h3 className="text-2xl font-medium text-center text-[#4D4D4D]">
               Membership Organisations
             </h3>
@@ -14,7 +16,7 @@ export const Section4 = () => {
             </p>
           </div>
           <div className="p-8 shadow-lg flex items-center flex-col gap-4">
-            <img src="/src/assets/Community-2.svg" alt="" />
+            <img src={assets.community2} alt="" />
             <h3 className="text-2xl font-medium text-center text-[#4D4D4D]">
               National <br />
               Associations
@@ -25,7 +27,7 @@ export const Section4 = () => {
             </p>
           </div>
           <div className="p-8 shadow-lg flex items-center flex-col gap-4">
-            <img src="/src/assets/Community-3.svg" alt="" />
+            <img src={assets.community3} alt="" />
             <h3 className="text-2xl font-medium text-center text-[#4D4D4D]">
               Clubs <br /> And Groups
             </h3>
